@@ -1,4 +1,4 @@
-console.log("Client side javascript file is loaded!");
+
 
 const clima = (city) => {
   fetch(`http://localhost:3000/weather?address=${city}`).then((response) => {
