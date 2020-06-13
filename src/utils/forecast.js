@@ -15,7 +15,10 @@ const forecast = ({location, latitud, longitud}, callback) => {
         location: `${location}`,
         description: `${body.current.weather_descriptions[0]}`,
         temperature: `${body.current.temperature}`,
-        feelslike: `${body.current.feelslike}`
+        feelslike: `${body.current.feelslike}`,
+        humidity: `${body.current.humidity}`,
+        windspeed: `${body.current.wind_speed}`
+
 
       })
     }

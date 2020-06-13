@@ -15,6 +15,8 @@ const clima = (city) => {
             <span>FeelsLike: ${data.feelslike}</span>
             <span>Location: ${data.location}</span>
             <span>Temperature: ${data.temperature}</span>              
+            <span>Humidity: ${data.humidity}</span>              
+            <span>Wind Speed: ${data.windspeed}</span>              
         `;
         main.insertBefore(div, power);
       }
